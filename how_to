@@ -1,0 +1,6 @@
+make -f master.mak gen_fetch_build \
+  XSA_PATH="path to xsa file" \
+  PROC_NAME="vivado blockdesign processor name" \
+  VIVADO_SETTINGS="path to source in terminal" \
+  WORKSPACE="path to store all generated files" \
+  MAIN_C="path to main.c file"
